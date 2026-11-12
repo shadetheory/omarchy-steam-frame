@@ -11,7 +11,7 @@ case $tag in
         ;;
 esac
 
-repo=jordanpartridge/omarchy-steam-frame
+repo=shadetheory/omarchy-steam-frame
 dest=${XDG_CONFIG_HOME:-$HOME/.config}/omarchy/plugins/jordan.steam-frame
 parent=$(dirname "$dest")
 arc=$(mktemp -d)
