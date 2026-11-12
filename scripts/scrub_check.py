@@ -17,7 +17,7 @@ def _join(*parts):
 
 PLUGIN_ID = _join("jor", "dan", ".steam-frame")
 AUTHOR = _join("Jor", "dan", " Par", "tridge")
-REPO = _join("jor", "dan", "par", "tridge", "/omarchy-steam-frame")
+REPO = _join("shadetheory", "/omarchy-steam-frame")
 NAME_A = _join("jor", "dan")
 NAME_B = _join("par", "tridge")
 HOST_A = _join("th", "or")
