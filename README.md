@@ -28,7 +28,7 @@ The Frame window control moves the existing Hyprland client whose class is `vrmo
 The line below is pinned to tag `v1.0.0`, the version in `manifest.json`. It downloads `scripts/install-from-tag.sh` from that tag and replaces `~/.config/omarchy/plugins/jordan.steam-frame` with the tagged tree. Running it again installs the same tree. Publish the tag before using the line. The URL works once this repository is public.
 
 ```bash
-tag=v1.0.0; tmp="$(mktemp)" && curl -fsSL "https://raw.githubusercontent.com/jordanpartridge/omarchy-steam-frame/${tag}/scripts/install-from-tag.sh" -o "$tmp" && sh "$tmp" "$tag"; status=$?; rm -f "$tmp"; exit "$status"
+tag=v1.0.0; tmp="$(mktemp)" && curl -fsSL "https://raw.githubusercontent.com/shadetheory/omarchy-steam-frame/${tag}/scripts/install-from-tag.sh" -o "$tmp" && sh "$tmp" "$tag"; status=$?; rm -f "$tmp"; exit "$status"
 ```
 
 From a checkout, the same copy without a tag is:
